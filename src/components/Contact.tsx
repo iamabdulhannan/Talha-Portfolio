@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowUpRight, Copy, Linkedin, Mail, MessageCircle, Phone } from "lucide-react";
+import { ArrowUpRight, Copy, Linkedin, Mail, MessageCircle } from "lucide-react";
 import { useState } from "react";
 import Magnetic from "./Magnetic";
 import { profile } from "@/lib/data";
@@ -17,7 +17,6 @@ export default function Contact() {
 
   const items = [
     { icon: Mail, label: "Email", value: profile.email, href: `mailto:${profile.email}` },
-    { icon: Phone, label: "Phone", value: profile.phone, href: `tel:${profile.phone.replace(/\s/g, "")}` },
     {
       icon: MessageCircle,
       label: "WhatsApp",

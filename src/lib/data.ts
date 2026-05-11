@@ -4,7 +4,6 @@ export const profile = {
   tagline: "Full-Stack .NET Engineer crafting scalable products with AI-augmented workflows.",
   location: "Lahore, Pakistan",
   email: "talhashahzad975@gmail.com",
-  phone: "+92 323 7041793",
   whatsapp: "+92 329 5757737",
   linkedin: "https://linkedin.com/in/talha-bin-yahya",
   yearsExperience: "6+",
